@@ -2,3 +2,5 @@
 TODO.md
 script.rb
 clone_wars_testing.db
+/.bundle/
+/vendor/bundle/

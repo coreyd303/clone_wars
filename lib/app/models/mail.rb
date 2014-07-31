@@ -1,6 +1,5 @@
 require 'pony'
 
-
 class MailDev
 
   def self.pony(params)
@@ -20,5 +19,4 @@ class MailDev
         :domain               => 'localhost.localdomain'
       })
   end
-
 end

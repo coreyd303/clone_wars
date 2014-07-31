@@ -12,8 +12,8 @@ class CloneWarsApp < Sinatra::Base
 
   configure do
     enable :sessions
-    set :username, 'jon'
-    set :password, 'snow'
+    set    :username, 'jon'
+    set    :password, 'snow'
   end
 
   get '/' do
@@ -156,5 +156,4 @@ class CloneWarsApp < Sinatra::Base
       halt 401, 'Forbidden' unless authenticated?
     end
   end
-
 end
